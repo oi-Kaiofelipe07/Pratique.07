@@ -1,0 +1,51 @@
+
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+form {
+    margin-top: 40px;
+}
+
+input, textarea, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    background-color: #0035e4;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00073eec;
+}
+
+.sucess-message {
+    background-color: #2bc86c;
+    padding: 16px;
+    color: #fff;
+    display: none;
+}
+
+.error-mensagem {
+    background-color: red;
+    padding: 16px;
+    color: #fff;
+    display: none;
+}
+
+p {
+    font-family: Helvetica;
+}
